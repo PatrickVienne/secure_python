@@ -5,6 +5,7 @@
 
 - Run a check and create outcome JSON file: `python main_secure.py --json tm_secure.json`
 - Plot and analyse outcome JSON file: `python plot_threads.py`
+- Run audit: `pip-audit -r requirements.txt -f json -o pip-audit-report.json`
 
 ## Output
 
