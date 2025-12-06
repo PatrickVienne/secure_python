@@ -9,6 +9,8 @@
 ## Output
 
 Example output
+![tm_insecure.json_threatmodel_severity.png](tm_insecure.json_threatmodel_severity.png)
+
 ```text
 Webserver High Server Side Include (SSI) Injection
 Webserver Very High Command Line Execution through SQL Injection
