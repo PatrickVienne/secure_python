@@ -23,7 +23,9 @@ counts = Counter(severities)
 if not counts:
     print("Keine Findings gefunden – evtl. ist dein Modell zu 'sicher' oder die JSON-Struktur ist anders.")
     exit(0)
-
+else:
+    for finding_threat in findings:
+        print(finding_threat["target"], finding_threat["severity"], finding_threat["description"])
 labels = list(counts.keys())
 values = [counts[label] for label in labels]
 
